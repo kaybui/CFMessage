@@ -1,0 +1,40 @@
+.flash_notice {
+    color: #727272;
+    background-color: #fff;
+    border:1px solid #727272; 
+}
+.flash_notice {
+	background:url (img/notice.png) no-repeat 10px 50%;
+}
+.flash_info {
+    color: #727272;
+    background-color: #bbdefb;
+    border:1px solid #0A6EC1;
+}
+.flash_info {
+	background:url (img/info.png) no-repeat 10px 50%;
+}
+.flash_error {
+    color: #727272;
+    background-color: #fffd9b;
+    border:1px solid #ffbb01;
+}
+.flash_error {
+	background:url (img/error.png) no-repeat 10px 50%;
+}
+.flash_success {
+    color: #727272;
+    background-color: #b7e967;
+    border:1px solid #b7df24;
+}
+.flash_success {
+	background:url (img/success.png) no-repeat 10px 50%;
+}
+.flash_warning {
+    color: #727272;
+    background-color: #f2b1b1;
+    border:1px solid #df4545;
+}
+.flash_warning {
+	background:url (img/warning.png) no-repeat 10px 50%;
+}

@@ -1,0 +1,22 @@
+{   
+    "name": "kabu/fmessage",    
+    "type": "library",
+    "description": "Flash class using sessions, written for ANAX-MVC.",
+    "keywords": ["flash", "mvc", "anax", "CFlashMessage"],
+    "homepage": "http://dbwebb.se",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karin Bui",
+            "email": "karinbui@gmail.com",
+            "homepage": "http://dbwebb.se"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "kbu\\": "src/" }
+    }
+
+} 
