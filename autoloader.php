@@ -14,7 +14,7 @@
 spl_autoload_register(function ($class) {
 // project-specific namespace prefix
 //$prefix = 'Foo\\Bar\\';
-$prefix = 'kabu\\';
+$prefix = 'kaybui\\';
 
 // base directory for the namespace prefix
 $base_dir = __DIR__ . '/src/';
