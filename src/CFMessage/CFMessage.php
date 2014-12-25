@@ -1,6 +1,6 @@
 <?php
 
-namespace kabu\CFMessage;
+namespace kaybui\CFMessage;
 
 class CFMessage
 {
