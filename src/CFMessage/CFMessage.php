@@ -99,12 +99,11 @@ class CFMessage
 		foreach($_SESSION['flash'] as $flashes => $flash) {
 		$type = $flash['type'];
 		$message = $flash['message'];
-
 		$messages .= "<div class='flash_{$type}'>\n";
-		$messages .= "  " . $message . "\n</div>\n";
+		$messages .= "\t" . $message . "\n</div>\n";
 	}
 
-		// done, clear messages
+	// done, clear messages
 	$_SESSION['flash'] = null;
 	}
 	return $messages;
