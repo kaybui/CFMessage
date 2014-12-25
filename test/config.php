@@ -10,13 +10,14 @@
 define('ANAX_INSTALL_PATH', realpath(__DIR__ . '/../') . '/');
 define('ANAX_APP_PATH', ANAX_INSTALL_PATH . '/app/');
 date_default_timezone_set('CET');
+
 /**
-* Include autoloader.
-*
-*/
-include(ANAX_APP_PATH . 'autoloader.php');
+ * Include autoloader.
+ *
+ */
+include(ANAX_APP_PATH . '/../autoloader.php');
 /**
 * Include global functions.
 *
 */
-include(ANAX_INSTALL_PATH . 'functions.php'); 
+/*include(ANAX_INSTALL_PATH . 'functions.php'); */
