@@ -1,7 +1,7 @@
 <?php
-namespace kaybui\CFlashMessage;
+namespace kaybui\CFMessage;
 require_once(__DIR__ . '/../../src/CFMessage/CFMessage.php');
-class CFlashMessageTest extends \PHPUnit_Framework_TestCase
+class CFMessageTest extends \PHPUnit_Framework_TestCase
 {
 public function setup()
 {
