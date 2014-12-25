@@ -61,7 +61,7 @@ public function testGetMessages()
 $this->flash->clear();
 $this->flash->message('info', 'Info example message');
 $expectedResult = "<div class='flash_info'>\n";
-$expectedResult .= "\t" . "Info example message" . "\n</div>\n";
+$expectedResult .= "\t" . "     Info example message" . "\n</div>\n";
 $this->assertEquals($expectedResult, $this->flash->getMessages());
 }
 public function testEmptyGetMessages()
