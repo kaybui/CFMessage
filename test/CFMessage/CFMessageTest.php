@@ -59,9 +59,9 @@ $this->assertEquals('Error example message', $_SESSION['flash'][4]['message']);
 public function testGetMessages()
 {
 $this->flash->clear();
-$this->flash->message('info', 'Info example message');
-$expectedResult = "<div class='flash_info'>\n";
-$expectedResult .= "\t" . "     Info example message" . "\n</div>\n";
+$this->flash->message('notice', 'Notice example message');
+$expectedResult = "<div class='flash_notice'>\n";
+$expectedResult .= "\t" . "Notice example message" . "\n</div>\n";
 $this->assertEquals($expectedResult, $this->flash->getMessages());
 }
 public function testEmptyGetMessages()
